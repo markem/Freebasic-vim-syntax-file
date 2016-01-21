@@ -43,8 +43,7 @@ syn match	freebasicCompilerSwitches	"\<option\s+\(PRIVATE\|STATIC\)\>"
 syn region	freebasicConditional		start="\son\s+" skip=".*" end="gosub"
 syn region	freebasicConditional		start="\son\s+" skip=".*" end="goto"
 syn match	freebasicConditional		"\<select\s+case\>"
-syn match	freebasicConditional		"end\s+if"
-syn keyword	freebasicConditional		if iif then case else elseif with endif
+syn keyword	freebasicConditional		if iif then case else elseif with
 
 syn match	freebasicConsole		"\<open\s+\(CONS\|ERR\|PIPE\|SCRN\)\>"
 syn keyword	freebasicConsole		BEEP CLS CSRLIN LOCATE PRINT POS SPC TAB VIEW WIDTH
